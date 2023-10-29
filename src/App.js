@@ -70,8 +70,8 @@ function App() {
                   value={location}
                   onChange={(event) => setLocation(event.target.value)}
                   onKeyPress={searchLocation}
-                  placeholder="Enter Location ans press enter"
-                  label="Enter the location"
+                  placeholder="Enter Location"
+                  label="Enter the location and press enter"
                   variant="outlined"
                   fullWidth
                 />
